@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🌸 Iris Flower Species Prediction (Streamlit + Pandas) 🌸")
+st.title("🌸 Iris Flower Species Prediction🌸")
 
 # Just creating a DataFrame from user input (file handling NOT used)
 st.sidebar.header("Input Features")
@@ -32,3 +32,4 @@ if st.button("Predict"):
         species = "Iris-virginica"
 
     st.success(f"Predicted Iris Species: **{species}**")
+
