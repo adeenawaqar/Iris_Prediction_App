@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🌸 Iris Flower Species Prediction (Simple & Streamlit Compatible) 🌸")
+st.title("🌸Iris Flower Species Prediction🌸")
 
 # Load dataset (optional – for display)
 iris = pd.read_csv("IRIS dataset.csv")
@@ -31,3 +31,4 @@ if st.button("Predict"):
         species = "Iris-virginica"
 
     st.success(f"Predicted Iris Species: **{species}**")
+
